@@ -2,7 +2,7 @@ title: Julia P. / Tech Writer
 email: petrova751@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   From crafting developer docs from scratch to maintaining them for the long term, I’ve got you covered
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
