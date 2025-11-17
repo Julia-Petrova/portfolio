@@ -33,7 +33,7 @@ The samples share the following features:
 ## [Upload data within a stream (tutorial sample)](/portfolio/tutorial-sample/){:.heading.flip-title}
 
 * **Type:** Tutorial
-* **Objective:** A description of how to use the feature described in the [Concept Sample](/concept-sample/)
+* **Objective:** A description of how to use the feature described in the [Concept Sample](/portfolio/concept-sample/)
 * **Skills:**
   * Collaborating with subject-matter experts
   * Learning low-level implementation details

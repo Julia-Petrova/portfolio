@@ -8,13 +8,13 @@ permalink: /tutorial-sample/
 - TOC
 {:toc}
 
-This sample explains how to upload data to a data mart building system within a stream using the feature described in [the concept sample](concept_sample.md).
-It is for a fictional system Datafuel but based on a real product documentation that I wrote.
+This sample explains how to upload data to a data mart building system within a stream using the feature described in [the concept sample](/portfolio/concept_sample.md).
+It is written for a fictional system called Datafuel but is based on a real product documentation that I created.
 
 * **Type:** Tutorial
 * **Objective:** A description of how to use the streaming data upload feature
 * **Audience:** Developers, system analysts, system architects, and deployment teams
-* **Tools Used:** Markdown, Jekyll, Hydejack theme, GitHub Pages
+* **Tools Used:** Markdown, Jekyll, Hydejack theme, and GitHub Pages
 
 The sample begins below the line.
 
@@ -22,7 +22,7 @@ The sample begins below the line.
 
 # Upload data within a stream
 
-You can stream <> data to:
+You can stream data to:
 * logical tables of any type
 * proxy tables
 * standalone tables
@@ -33,7 +33,7 @@ For small updates (up to a few hundred records), consider using the data update 
 ## Create a writable table for a standalone table
 
 To upload data to a standalone table, you need an external writable table linked to it.
-If it does not exist, create one:
+If it does not exist, create one as follows:
 * If both the standalone table and its external writable table do not exist, run `CREATE WRITABLE EXTERNAL TABLE` <> with
   `OPTIONS ('auto.create.table.enable=true')` <>.
 * Otherwise, run `CREATE WRITABLE EXTERNAL TABLE` without `OPTIONS`.
@@ -48,7 +48,7 @@ To stream data in your code (see examples below):
 
 ### Example: sending CSV data as a stream
 
-The following Java example (using Vertx) implements a basic HTTP client for streaming CSV data.
+The following Java example (using Vertx) demonstrates a basic HTTP client for streaming CSV data.
 
 ```java
 // Create a Vertx instance
@@ -120,7 +120,7 @@ vertx.close();
 
 ### Example: sending Avro data as a stream
 
-The following Java example (using Vertx) implements a basic HTTP client for streaming Avro data.
+The following Java example (using Vertx) demonstrates a basic HTTP client for streaming Avro data.
 
 ```java
 // create a vertx instance
