@@ -10,12 +10,12 @@ permalink: /concept-sample/
 
 This sample provides a high-level overview of the streaming upload feature in a data mart building system
 and includes links to further reading on the topic.
-It is for a fictional system Datafuel but based on a real product documentation that I wrote.
+It is written for a fictional system called Datafuel but is based on a real product documentation that I created.
 
 * **Type:** Concept topic
 * **Objective:** An introduction to a new type of data upload in a data mart building system
 * **Audience:** Developers, system analysts, system architects, and deployment teams
-* **Tools Used:** Markdown, Jekyll, Hydejack theme, GitHub Pages
+* **Tools Used:** Markdown, Jekyll, Hydejack theme, and GitHub Pages
 
 The sample begins below the line.
 
@@ -29,7 +29,7 @@ The external system responsible for streaming controls the chunk size and conten
 
 ## Tables and DBMS support
 
-Data can be streamed into any table of the types listed in section <>.
+Data can be streamed into any table of the types listed in Section <>.
 The target table can reside in any supported DBMS.
 
 ## Interfaces and protocols
@@ -48,7 +48,7 @@ You can adjust CSV parsing settings (delimiter, quotes, escape symbols, etc.) in
 ## Send a data stream
 
 To send a data stream to Datafuel, use the /upload endpoint <> of the HTTP API.
-For a full tutorial, see section <>.
+For a full tutorial, see Section <>.
 
 ## Processing Stages
 
@@ -70,7 +70,8 @@ Streaming data is saved to a logical table in the following steps:
 3. Upon successful completion or cancellation with a specific option (see <>), 
    data is saved to the table as its current data version.
 
-Note: All data uploaded within a stream is part of a single write operation.
+All data uploaded within a stream is part of a single write operation.
+{:.note title="Note"}
 
 When being streamed to a proxy or standalone table, data is saved immediately upon transfer to the target DBMS.
 Once transferred, it cannot be canceled, even if an error occurs.
@@ -80,6 +81,6 @@ Once transferred, it cannot be canceled, even if an error occurs.
 An interrupted stream is handled in the following way:
 * If an error occurs or the upload is canceled, Datafuel closes the write operation
   as unsuccessful and discards all the data uploaded within the stream.
-* If the connection to the external system is lost or closed, the outcome depends on the request's commitOnDisconnect option <>:
-  * Enabled: Datafuel closes the write operation as successful and saves the uploaded data.
-  * Disabled: Datafuel treats the situation like an error or cancellation, discarding all data uploaded in the stream.
+* If the connection to the external system is lost or closed, the outcome depends on the request's `commitOnDisconnect` option <>:
+  * **Enabled:** Datafuel closes the write operation as successful and saves the uploaded data.
+  * **Disabled:** Datafuel treats the situation like an error or cancellation, discarding all data uploaded in the stream.
