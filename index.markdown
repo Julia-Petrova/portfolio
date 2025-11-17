@@ -5,7 +5,7 @@ title: Home
 
 [About](/about/)
 
-[Portfolio](/portfolio/)
+[Portfolio](/samples/)
 - [Streaming data upload (concept sample)](/concept-sample/)
 - [Upload data within a stream (tutorial sample)](/tutorial-sample/)
 - [Get entity metadata (API reference sample)](/api-reference-sample/)
