@@ -48,7 +48,7 @@ To stream data in your code (see examples below):
 
 ### Example: sending CSV data as a stream
 
-The following Java example (using Vertx) demonstrates a basic HTTP client for streaming CSV data.
+The following Java example (using Vert.x) demonstrates a basic HTTP client for streaming CSV data.
 
 ```java
 // Create a Vertx instance
@@ -120,7 +120,7 @@ vertx.close();
 
 ### Example: sending Avro data as a stream
 
-The following Java example (using Vertx) demonstrates a basic HTTP client for streaming Avro data.
+The following Java example (using Vert.x) demonstrates a basic HTTP client for streaming Avro data.
 
 ```java
 // create a vertx instance

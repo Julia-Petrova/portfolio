@@ -9,7 +9,7 @@ permalink: /api-reference-sample/
 {:toc}
 
 This sample is a part of the entity HTTP API reference.
-It describes a fictional system called Datafuel, but it is based on a real product documentation that I wrote.
+It describes a fictional system called Datafuel, but it is based on a real product documentation that I created.
 
 * **Type:** API Reference
 * **Objective:** A description of how to use an endpoint of the entity HTTP API

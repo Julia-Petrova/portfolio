@@ -13,28 +13,20 @@ user-focused documentation for the software development industry.
 
 I am an expert in the full documentation lifecycle.
 This means I can architect documentation from the ground up, maintain and improve existing content, 
-provide insightful reviews to polish my colleagues' work, and even apply CSS tweaks to the documentation website. 
-In other words, there is no stage of the documentation process outside my purview.
+provide insightful reviews to polish my colleagues’ work, and even apply CSS tweaks to documentation websites. 
+In other words, no stage of the documentation process is outside my purview.
 
-My core mission is to solve documentation challenges, ensuring the final product not only meets stakeholder goals 
-but also helps users to achieve their tasks efficiently and effectively.
-
-You can now jump to any section that interests you:
-* [Issues I can help you with](#issues)
-* [Documents I specialize in](#documents)
-* [Toolkit](#toolkit)
-  * [My current toolkit](#current-toolkit)
-  * [Tools used for this website](#website_tools)
-  * [Other tools I’ve used](#other_tools)
+My core mission is to solve documentation challenges, ensuring that the final product not only meets stakeholder goals 
+but also helps users achieve their tasks efficiently and effectively.
 
 ## Issues I can help you with {#issues}
 
 Below are some of the most common issues I can help you with:
-* no docs yet
-* outdated or scattered docs 
-* complex or incomplete docs 
-* an outdated or unsuitable tech stack
-* slow or insufficient documentation output
+* No docs yet
+* Outdated or scattered docs 
+* Complex or incomplete docs 
+* An outdated or unsuitable tech stack
+* Slow or insufficient documentation output
 
 ## Documents I specialize in {#documents}
 
@@ -56,7 +48,7 @@ Currently, I follow the docs-as-code approach, using tools such as:
 * Git and GitLab
 * Docker
 
-I'm always keen to learn new tools and technologies, so it's not an issue for me to master any other tools.
+I'm always eager to learn new tools and technologies, so mastering additional tools is not an issue.
 
 ### Tools used for this website {#website_tools}
 
